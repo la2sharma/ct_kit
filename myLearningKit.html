@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 03.
+  Author: Amir H Chinaei
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 3 - My Kit </title>
+  <link rel="stylesheet" type="text/css" href="myLearningKit.css" />
+  <script src="myLearningKit.js"></script>
+  
+  
+</head>
+<body>
+
+  <header>
+	<h1> My Computational Thinking Kit </h1>
+	<nav id="btns">
+	</nav>
+  </header>
+  
+  <div id="problem" class="problem">
+    
+  </div>
+  <div class="column1 design">
+	<input id="check1" type="checkbox" onclick="checkUncheck1()"/> Design
+
+ 	<img id="flowchart" ondblclick="zoomIn()" onclick="zoomOut()"/>
+  </div>
+  <div class="column2 jsSolution">
+	<input id="check2" type="checkbox" onclick="checkUncheck2()"/> JavaScript Solution
+	 <img id="js" ondblclick="zoomInS()" onclick="zoomOutS()"/>
+	<!-- <button id="js">Test</button> -->
+	 
+  </div>
+  <div class="column3 otherSolution">
+	<input id="check3" type="checkbox" onclick="checkUncheck3()"/> Another Solution
+	<img id="another"/>
+  </div>
+
+  <footer>(c) Author of this web page: <span>Lakshay</span> </footer>
+</body>
+</html>
